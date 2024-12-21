@@ -1,0 +1,45 @@
+/* Global Styles */
+body {
+  color: #999;
+  font-family: sans-serif; /* Added a default font for consistency */
+}
+
+/* Layout Styles */
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px; /* Using gap instead of right margin for more flexibility*/
+}
+
+/* Button Styles */
+button {
+    /* Base Button Styles */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #646cff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+  button:hover {
+    background-color: #535bf2;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+
+
+/* Message Styles */
+.message.green {
+  color: darkcyan;
+}
+
+.message.red {
+  color: firebrick;
+}
